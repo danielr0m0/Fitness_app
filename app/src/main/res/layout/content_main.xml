@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.romodaniel.fitness.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <!--this is our home page-->
+        <TextView
+            android:id="@+id/greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/greetings"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:paddingTop="50dp"
+            />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="228dp"
+            app:srcCompat="@drawable/rock"
+            android:layout_weight="0.73" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/reference"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:paddingBottom="50dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

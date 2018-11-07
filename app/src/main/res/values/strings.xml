@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Fitness</string>
+
+    <!--TODO insert API KEY here-->
+    <string name="google_maps_api_key"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Total_Run">Runs</string>
+    <string name="value">Value</string>
+    <string name="Total_time">Time</string>
+    <string name="Total_miles">Miles</string>
+    <string name="Total_Cal">Calories\n Burn</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="track_blank_fragment">Track fragment</string>
+    <string name="profile_blank_fragment">profile fragment</string>
+
+
+    <!--Strings for the toScene google maps-->
+    <string name="distance">Distance</string>
+    <string name="speed">Speed</string>
+    <string name="calories">Calories</string>
+    <string name="last_run">Last Run Data</string>
+
+    <string name="header_active_time">00:00</string>
+    <string name="header_average_pace">0:00/mi</string>
+    <string name="header_burnt_calories">0 cal</string>
+    <string name="header_counted_steps">0 steps</string>
+    <string name="header_email">email@example.com</string>
+    <string name="header_full_name">Full Name</string>
+    <string name="header_total_miles">0 mi</string>
+
+    <string name="action_start">Start</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_stop">Stop</string>
+    <string name="total">Total:</string>
+    <string name="user_name">User Name</string>
+    <string name="greetings">Hello </string>
+    <string name="reference">LET\'S GET PHYSICAL</string>
+    <string name="emptyString">Test</string>
+    <string-array name="cdates"></string-array>
+    <string-array name="history">
+        <item>Last</item>
+        <item>Total</item>
+    </string-array>
+
+</resources>

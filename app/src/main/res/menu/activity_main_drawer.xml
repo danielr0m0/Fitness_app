@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_profile"-->
+            <!--android:icon="@drawable/ic_menu_profile"-->
+            <!--android:title="Profile" />-->
+        <item
+            android:id="@+id/nav_action"
+            android:icon="@drawable/ic_menu_action"
+            android:title="Start Activity"
+            />
+        <!--<item-->
+            <!--android:id="@+id/nav_notes"-->
+            <!--android:icon="@drawable/ic_menu_notes"-->
+            <!--android:title="Journal" />-->
+        <item
+            android:id="@+id/nav_tracker"
+            android:icon="@drawable/ic_menu_tracker"
+            android:title="Calorie Tracker" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_planner"-->
+            <!--android:icon="@drawable/ic_menu_planner"-->
+            <!--android:title="Planner" />-->
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
